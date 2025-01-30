@@ -103,6 +103,7 @@ main h2 {
     color: #272044;
     opacity: 0.3;
     margin: 0;
+    transform: uppercase;
 }
 
 main h3 {
@@ -126,11 +127,14 @@ main p {
     max-width: 100%;
 }
 
+
 footer {
     color: white;
     background-image: linear-gradient(rgba(39,32,68,0.6), rgba(39,32,68,0.6)), url(../images/pexels-pauldeetman-2695679.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 0; 
 }
 
 footer h3 {
@@ -144,7 +148,7 @@ footer p {
     font-size: 16px;
     line-height: 24px;
     opacity: 0.9;
-    margin-right: 20px ;
+    margin-right: 20px;
 }
 
 footer ul {
